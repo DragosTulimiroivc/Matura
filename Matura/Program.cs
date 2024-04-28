@@ -17,7 +17,6 @@ namespace Matura
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Matura m = new Matura();
             using (StreamReader file = new StreamReader(@"Ucenici.csv"))
             {
                 Ucenici.br = 0;
@@ -31,7 +30,7 @@ namespace Matura
                     Ucenici.br++;
                 }
             }
-            Application.Run(m);
+            Application.Run(new Matura());
         }
     }
 }
