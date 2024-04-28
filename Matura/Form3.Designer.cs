@@ -73,6 +73,7 @@
             this.Dalje2.TabIndex = 3;
             this.Dalje2.Text = "Dalje";
             this.Dalje2.UseVisualStyleBackColor = true;
+            this.Dalje2.Click += new System.EventHandler(this.Dalje2_Click);
             // 
             // Stručni
             // 

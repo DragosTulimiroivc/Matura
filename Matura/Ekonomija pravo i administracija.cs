@@ -11,16 +11,16 @@ using System.IO;
 
 namespace Matura
 {
-    public partial class Umetnički : Form
+    public partial class Ekonomija_pravo_i_administracija : Form
     {
-        public Umetnički()
+        public Ekonomija_pravo_i_administracija()
         {
             InitializeComponent();
         }
 
-        private void PredajU_Click(object sender, EventArgs e)
+        private void Dalje_Click(object sender, EventArgs e)
         {
-            Ucenici.matrica[Ucenici.br, 5] = comboBox1.Text;
+            Ucenici.matrica[Ucenici.br, 6] = comboBox1.Text;
             Ucenici.br++;
             using (StreamWriter file = new StreamWriter(@"Ucenici.csv"))
             {

@@ -164,6 +164,7 @@
             this.Dalje1.TabIndex = 12;
             this.Dalje1.Text = "Dalje";
             this.Dalje1.UseVisualStyleBackColor = true;
+            this.Dalje1.Click += new System.EventHandler(this.Dalje1_Click);
             // 
             // prikazi
             // 
@@ -173,6 +174,7 @@
             this.prikazi.TabIndex = 13;
             this.prikazi.Text = "Prikaži učenike";
             this.prikazi.UseVisualStyleBackColor = true;
+            this.prikazi.Click += new System.EventHandler(this.prikazi_Click);
             // 
             // Matura
             // 

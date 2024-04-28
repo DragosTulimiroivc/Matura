@@ -35,6 +35,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.Dalje = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -128,11 +129,22 @@
             this.comboBox3.TabIndex = 7;
             this.comboBox3.Text = "Matematika";
             // 
+            // Dalje
+            // 
+            this.Dalje.Location = new System.Drawing.Point(359, 373);
+            this.Dalje.Name = "Dalje";
+            this.Dalje.Size = new System.Drawing.Size(75, 23);
+            this.Dalje.TabIndex = 12;
+            this.Dalje.Text = "Dalje";
+            this.Dalje.UseVisualStyleBackColor = true;
+            this.Dalje.Click += new System.EventHandler(this.Dalje_Click);
+            // 
             // Opšti
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(446, 417);
+            this.Controls.Add(this.Dalje);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
@@ -156,5 +168,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Button Dalje;
     }
 }

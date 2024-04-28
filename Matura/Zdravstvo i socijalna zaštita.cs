@@ -11,23 +11,23 @@ using System.IO;
 
 namespace Matura
 {
-    public partial class Umetnički : Form
+    public partial class Zdravstvo_i_socijalna_zaštita : Form
     {
-        public Umetnički()
+        public Zdravstvo_i_socijalna_zaštita()
         {
             InitializeComponent();
         }
 
-        private void PredajU_Click(object sender, EventArgs e)
+        private void Dalje_Click(object sender, EventArgs e)
         {
-            Ucenici.matrica[Ucenici.br, 5] = comboBox1.Text;
+            Ucenici.matrica[Ucenici.br, 6] = comboBox1.Text;
             Ucenici.br++;
             using (StreamWriter file = new StreamWriter(@"Ucenici.csv"))
             {
-                for (int i = 0; i < Ucenici.br; i++)
+                for (int i = 0; i < Ucenici.matrica.GetLength(1); i++)
                 {
                     string red = "";
-                    for (int j = 0; j < 8; j++)
+                    for (int j = 0; j < Ucenici.br; j++)
                     {
                         red += Ucenici.matrica[i, j] + ";";
                     }

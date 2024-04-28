@@ -1,6 +1,7 @@
-﻿namespace Matura
+﻿
+namespace Matura
 {
-    partial class Geologija__rudarstvo_i_metalurgija
+    partial class Tekstilstvo_i_kozarstvo
     {
         /// <summary>
         /// Required designer variable.
@@ -38,17 +39,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(59, 36);
+            this.label1.Location = new System.Drawing.Point(136, 72);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(409, 31);
+            this.label1.Size = new System.Drawing.Size(283, 31);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Geologija, rudarstvo i metalurgija";
+            this.label1.Text = "Tekstilstvo i kožarstvo";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 127);
+            this.label2.Location = new System.Drawing.Point(89, 157);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 18);
             this.label2.TabIndex = 8;
@@ -58,36 +59,34 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Geološki tehničar za geotehniku i hidrogeologiju",
-            "Geološki tehničar za istraživanje mineralnih sirovina",
-            "Rudarski tehničar",
-            "Rudarski tehničar za pripremu mineralnih sirovina"});
-            this.comboBox1.Location = new System.Drawing.Point(99, 124);
+            "Tekstilski tehničar"});
+            this.comboBox1.Location = new System.Drawing.Point(192, 154);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(206, 21);
             this.comboBox1.TabIndex = 9;
+            this.comboBox1.Text = "Tekstilski tehničar";
             // 
             // Dalje
             // 
-            this.Dalje.Location = new System.Drawing.Point(442, 222);
+            this.Dalje.Location = new System.Drawing.Point(533, 299);
             this.Dalje.Name = "Dalje";
             this.Dalje.Size = new System.Drawing.Size(75, 23);
-            this.Dalje.TabIndex = 12;
+            this.Dalje.TabIndex = 10;
             this.Dalje.Text = "Dalje";
             this.Dalje.UseVisualStyleBackColor = true;
             this.Dalje.Click += new System.EventHandler(this.Dalje_Click);
             // 
-            // Geologija__rudarstvo_i_metalurgija
+            // Tekstilstvo_i_kozarstvo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(543, 268);
+            this.ClientSize = new System.Drawing.Size(629, 353);
             this.Controls.Add(this.Dalje);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Geologija__rudarstvo_i_metalurgija";
-            this.Text = "Geologija__rudarstvo_i_metalurgija";
+            this.Name = "Tekstilstvo_i_kozarstvo";
+            this.Text = "Tekstilstvo_i_kozarstvo";
             this.ResumeLayout(false);
             this.PerformLayout();
 

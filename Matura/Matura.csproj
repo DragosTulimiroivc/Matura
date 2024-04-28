@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ekonomija pravo i administracija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekonomija pravo i administracija.Designer.cs">
+      <DependentUpon>Ekonomija pravo i administracija.cs</DependentUpon>
+    </Compile>
     <Compile Include="Elektrotehnika.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,12 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Geodezija i građevinarstvo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geodezija i građevinarstvo.Designer.cs">
+      <DependentUpon>Geodezija i građevinarstvo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Geologija, rudarstvo i metalurgija.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +93,12 @@
     </Compile>
     <Compile Include="Hemija, nemetali i grafičarstvo.Designer.cs">
       <DependentUpon>Hemija, nemetali i grafičarstvo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lične usluge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lične usluge.Designer.cs">
+      <DependentUpon>Lične usluge.cs</DependentUpon>
     </Compile>
     <Compile Include="Mašinstvo i obrada metala.cs">
       <SubType>Form</SubType>
@@ -94,13 +112,43 @@
     <Compile Include="Poljoprivreda, proizvodnja i prerada hrane.Designer.cs">
       <DependentUpon>Poljoprivreda, proizvodnja i prerada hrane.cs</DependentUpon>
     </Compile>
+    <Compile Include="Prikaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prikaz.Designer.cs">
+      <DependentUpon>Prikaz.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Saobraćaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saobraćaj.Designer.cs">
+      <DependentUpon>Saobraćaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tekstilstvo i kozarstvo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tekstilstvo i kozarstvo.Designer.cs">
+      <DependentUpon>Tekstilstvo i kozarstvo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trgovina ugostiteljstvo i turizam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trgovina ugostiteljstvo i turizam.Designer.cs">
+      <DependentUpon>Trgovina ugostiteljstvo i turizam.cs</DependentUpon>
+    </Compile>
     <Compile Include="Umetnički.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Umetnički.Designer.cs">
       <DependentUpon>Umetnički.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zdravstvo i socijalna zaštita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zdravstvo i socijalna zaštita.Designer.cs">
+      <DependentUpon>Zdravstvo i socijalna zaštita.cs</DependentUpon>
     </Compile>
     <Compile Include="Šumarstvo i obrada drveta.cs">
       <SubType>Form</SubType>
@@ -108,6 +156,9 @@
     <Compile Include="Šumarstvo i obrada drveta.Designer.cs">
       <DependentUpon>Šumarstvo i obrada drveta.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Ekonomija pravo i administracija.resx">
+      <DependentUpon>Ekonomija pravo i administracija.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Elektrotehnika.resx">
       <DependentUpon>Elektrotehnika.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,17 +171,26 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Geodezija i građevinarstvo.resx">
+      <DependentUpon>Geodezija i građevinarstvo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Geologija, rudarstvo i metalurgija.resx">
       <DependentUpon>Geologija, rudarstvo i metalurgija.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hemija, nemetali i grafičarstvo.resx">
       <DependentUpon>Hemija, nemetali i grafičarstvo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lične usluge.resx">
+      <DependentUpon>Lične usluge.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mašinstvo i obrada metala.resx">
       <DependentUpon>Mašinstvo i obrada metala.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Poljoprivreda, proizvodnja i prerada hrane.resx">
       <DependentUpon>Poljoprivreda, proizvodnja i prerada hrane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prikaz.resx">
+      <DependentUpon>Prikaz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -141,8 +201,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Saobraćaj.resx">
+      <DependentUpon>Saobraćaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tekstilstvo i kozarstvo.resx">
+      <DependentUpon>Tekstilstvo i kozarstvo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trgovina ugostiteljstvo i turizam.resx">
+      <DependentUpon>Trgovina ugostiteljstvo i turizam.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Umetnički.resx">
       <DependentUpon>Umetnički.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zdravstvo i socijalna zaštita.resx">
+      <DependentUpon>Zdravstvo i socijalna zaštita.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Šumarstvo i obrada drveta.resx">
       <DependentUpon>Šumarstvo i obrada drveta.cs</DependentUpon>
